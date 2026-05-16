@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleIndex.css">
+    <link rel="icon" type="image/jpg/png" href="./image/robot.png">
+    <title>Robot Academy</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="menu">
+                <h1>
+                    <span id="robot_academy" class="titulo1">Robot Academy</span>
+                </h1>
+            </div>
+        </header>
+        <nav>
+            <div class="listado1">
+                <ul>
+                    <li id="home" class="lista1"><a href="index.html">Inicio</a></li>
+                    <li id="nosotros" class="lista1"><a href="#acerca_de_ra">Nosotros</a></li>
+                    <li id="contacto" class="lista1"><a href="#contacto_ra">Contacto</a></li>
+            </div>
+        </nav>
+        <main>
+            <div id="boton1">
+                <button id="myButton">Cambiar a Fondo Claro</button>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="./image/flecha-hacia-arriba.png" id="flechaArriba" class="logo" alt="Flecha hacia arriba"
+                        title="Flecha hacia arriba">
+                </a>
+            </div>
+            <div>
+                <img src="./image/robotica-educativa.jpg" id="robotica_educativa1" class="imagenes"
+                    alt="Maestro enseñando robotica a un grupo de niños" title="Maestro enseñando robotica"></img>
+            </div>
+            <article>
+                <div class="acercaDe">
+                    <h2>
+                        <span id="acerca_de_ra" class="titulo2">Acerca de Robot Academy</span>
+                    </h2>
+                    <p>
+                        <b>Robot Academy</b> fue fundada en 2019 con la visión de ofrecer a niños y adolescentes una
+                        experiencia
+                        educativa única y enriquecedora en el emocionante mundo de la <i>robótica y la tecnología.</i>
+                        Nuestra
+                        historia se remonta a la pasión de nuestros fundadores por la ciencia, la tecnología y la
+                        educación,
+                        y
+                        su deseo de inspirar a la próxima generación de innovadores y solucionadores de problemas. Desde
+                        entonces, hemos crecido y evolucionado, estableciéndonos como un líder en la enseñanza de
+                        robótica
+                        para
+                        niños y adolescentes.
+                    </p>
+                    <p>
+                        En <b>Robot Academy</b>, nuestra misión es guiar a niños y adolescentes a través de un viaje
+                        educativo
+                        en el mundo de la robótica y la tecnología, donde la curiosidad y la exploración se combinan con
+                        el
+                        aprendizaje significativo. Buscamos inspirar a cada estudiante a descubrir su potencial,
+                        afrontar
+                        sus
+                        desafíos con confianza y desarrollar habilidades esenciales en <b>STEM (Ciencia, Tecnología,
+                            Ingeniería
+                            y Matemáticas)</b> que les permitan forjar un futuro de innovación, liderazgo y contribución
+                        a
+                        la
+                        sociedad. Nos comprometemos a brindar una educación de calidad que promueva la creatividad, el
+                        pensamiento crítico y la empatía, preparando a nuestros estudiantes para enfrentar los desafíos
+                        globales
+                        con soluciones innovadoras y la determinación de hacer del mundo un lugar mejor.
+                    </p>
+                    <div>
+                        <video width="650" controls>
+                            <source src="./media/Robot_Academy_Trailer.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <p>
+                        <b>¿Qué planes a futuro tenemos?</b>
+                    </p>
+                    <p> En <b>Robot Academy</b>, buscamos expandir nuestro alcance y llegar a
+                        comunidades en todo elmundo, brindando oportunidades educativas de calidad en robótica y STEM a
+                        aquellos
+                        que buscan empoderar a sus hijos con las habilidades del siglo XXI. Nos esforzamos por
+                        mantenernos a
+                        la
+                        vanguardia de la innovación educativa, desarrollando programas que se adaptan a las cambiantes
+                        necesidades tecnológicas y desafíos globales. Nuestro compromiso es continuar nutriendo la
+                        curiosidad,
+                        la creatividad y el pensamiento crítico de nuestros estudiantes, preparándolos para liderar en
+                        un
+                        mundo
+                        impulsado por la tecnología.
+                    </p>
+                    <p>
+                        Visualizamos una red global de <b>Robot Academy</b> que conecta a estudiantes de diversas
+                        culturas y
+                        contextos, fomentando la colaboración y el intercambio de ideas. En última instancia, nuestra
+                        misión
+                        es
+                        forjar una generación de ciudadanos del mundo, apasionados por la innovación y comprometidos con
+                        un
+                        futuro sostenible y equitativo, donde nuestros estudiantes se conviertan en líderes del cambio,
+                        modelando un mundo mejor a través de la robótica, la tecnología y el aprendizaje a lo largo de
+                        toda
+                        la
+                        vida.
+                    </p>
+                </div>
+            </article>
+            <article>
+                <div class="contacto">
+                    <h2>
+                        <span id="contacto_ra" class="titulo2">Contáctenos</span>
+                    </h2>
+                    <h3>
+                        <span id="completa_formulario" class="subtitulo1">Completa el siguiente formulario con tus datos
+                            para
+                            que podamos contactarte.</span>
+                    </h3>
+                    <form id="contactoForm">
+                        <div id="nombre">
+                            <label for="nombre"> Nombre:</label>
+                            <br>
+                            <input id="nombre_input" name="nombre" type="text" required>
+                            <br>
+                        </div>
+                        <div id="apellido">
+                            <label for="apellido"> Apellido:</label>
+                            <br>
+                            <input id="apellido_input" name="apellido" type="text" required>
+                            <br>
+                        </div>
+                        <div id="edad">
+                            <label for="edad"> Edad:</label>
+                            <br>
+                            <input id="edad_input" name="edad" type="number" min="1" max="100" required>
+                            <br>
+                        </div>
+                        <div id="mail">
+                            <label for="correo"> Correo:</label>
+                            <br>
+                            <input id="correo_input" name="correo" type="text" required>
+                            <br>
+                        </div>
+                        <div id="telefono">
+                            <label for="telefono"> Celular:</label>
+                            <br>
+                            <input id="telefono_input" name="telefono" type="tel" required>
+                            <br>
+                        </div>
+                        <div id="mensaje">
+                            <label for="mensaje">Consulta:</label>
+                            <br>
+                            <textarea id="mensaje_textarea" name="mensaje" rows="6" cols="36" required=""></textarea>
+                        </div>
+                        <div id="boton2">
+                            <input class="boton2" value="Enviar" type="submit">
+                        </div>
+                    </form>
+                </div>
+            </article>
+            <article>
+                <div class="login1">
+                    <h2>
+                        <span id="iniciar_sesion" class="titulo2">Iniciar Sesión</span>
+                    </h2>
+                    <form id="loginForm">
+                        <input type="text" id="username" placeholder="Usuario" required> <br>
+                        <input type="password" id="password" placeholder="Password" required> <br>
+                        <input class="boton3" type="submit" value="Entrar">
+                    </form>
+                </div>
+            </article>
+        </main>
+        <footer>
+            <div>
+                <p id="paso_final">&copy;2024 Matías Barrientos</p>
+                <a href="mailto:matias.barrientos2805@gmail.com">Correo</a>
+                <a href="https://www.instagram.com/tutebarrientos/" target="_blank">Instagram</a>
+                <a href="https://wa.me/+5491139288152" target="_blank">WhatsApp</a>
+            </div>
+        </footer>
+    </div>
+</body>
+<script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function () {
+        let button = document.getElementById("myButton");
+        let isBlack = true;
+
+        button.addEventListener("click", function () {
+            if (isBlack === false) {
+                document.body.style.background = "#818FB4";
+                document.body.style.color = "black";
+                button.innerHTML = "Cambiar a Fondo Claro"
+                isBlack = true
+            } else {
+                document.body.style.background = "#EBE3D5";
+                document.body.style.color = "black";
+                button.innerHTML = "Cambiar a Fondo Oscuro"
+                isBlack = false
+            }
+        });
+    });
+    document.getElementById("loginForm").addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        var username = document.getElementById('username').value;
+        console.log(username)
+        var password = document.getElementById('password').value;
+        console.log(password)
+
+        if (username === 'agustina' && password === '123') {
+            var url = "alumno.html?usuario=" + username;
+            window.location.href = url;
+        } else if (username === 'rodrigo' && password === '123') {
+            var url = "docente.html?usuario=" + username;
+            window.location.href = url;
+        } else {
+            alert('Usuario Incorrecto')
+            document.getElementById("loginForm").reset()
+        }
+    });
+</script>
+
+</html>

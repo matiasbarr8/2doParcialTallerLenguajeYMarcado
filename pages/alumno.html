@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleAlumno.css">
+    <link rel="icon" type="image/jpg/png" href="./image/student.png">
+    <title>Mi Cuenta (Estudiante)</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="menuBienvenida">
+                <h1 id="welcome"></h1>
+            </div>
+        </header>
+        <nav>
+            <div class="listado1">
+                <ul>
+                    <li id="inicio" class="lista1"><a href="index.html">Inicio</a></li>
+                    <li id="horarios" class="lista1"><a href="#clases_ra">Horarios</a></li>
+                    <li id="materias" class="lista1"><a href="#materias_ra">Materias</a></li>
+                    <li id="form" class="lista1"><a href="#charlas_robotica">Charlas</a></li>
+                </ul>
+            </div>
+        </nav>
+        <main>
+            <div id="boton1">
+                <button id="myButton">Cambiar a Fondo Claro</button>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="./image/flecha-hacia-arriba.png" id="flechaArriba" class="logo" alt="Flecha hacia arriba" title="Flecha hacia arriba">
+                </a>
+            </div>
+            <article>
+                <div class="tabla_horarios">
+                    <h2>
+                        <span id="clases_ra" class="titulo2">Clases y Horarios</span>
+                    </h2>
+                    <table id="horarios_materias" class="tabla1">
+                        <thead>
+                            <tr>
+                                <th class="fila1">Hora</th>
+                                <th class="fila1">Lunes</th>
+                                <th class="fila1">Martes</th>
+                                <th class="fila1">Miércoles</th>
+                                <th class="fila1">Jueves</th>
+                                <th class="fila1">Viernes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="fila1">07:30</td>
+                                <td class="materia">Intro. a la robótica</td>
+                                <td class="materia">Proyectos prácticos</td>
+                                <td class="materia">Mecatrónica</td>
+                                <td class="materia">Electrónica básica</td>
+                                <td class="materia">Visión por computadora</td>
+                            </tr>
+                            <tr>
+                                <td class="fila1">09:20</td>
+                                <td class="materia">Intro. a la robótica</td>
+                                <td class="materia">Proyectos prácticos</td>
+                                <td class="materia">Mecatrónica</td>
+                                <td class="materia">Electrónica básica</td>
+                                <td class="materia">Visión por computadora</td>
+                            </tr>
+                            <tr>
+                                <td colspan="6" class="recreo">Recreo</td>
+                            </tr>
+                            <tr>
+                                <td class="fila1">09:35</td>
+                                <td class="materia">Program. de robots</td>
+                                <td class="materia">Ética de la robótica</td>
+                                <td class="materia">IA aplicada a la robótica</td>
+                                <td class="materia">Program. de robots</td>
+                                <td class="materia">Lenguajes</td>
+                            </tr>
+                            <tr>
+                                <td class="fila1">11:30</td>
+                                <td class="materia">Program. de robots</td>
+                                <td class="materia">Ética de la robótica</td>
+                                <td class="materia">IA aplicada a la robótica</td>
+                                <td class="materia">Program. de robots</td>
+                                <td class="materia">Lenguajes</td>
+                            </tr>
+                            <tr>
+                                <td colspan="6" class="recreo">Recreo</td>
+                            </tr>
+                            <tr>
+                                <td class="fila1">11:45</td>
+                                <td class="materia">Electrónica básica</td>
+                                <td class="materia">Lenguajes</td>
+                                <td class="materia">Intro. a la robótica</td>
+                                <td class="materia">Proyectos prácticos</td>
+                                <td class="materia">Mecatrónica</td>
+                            </tr>
+                            <tr>
+                                <td class="fila1">13:00</td>
+                                <td class="materia">Electrónica básica</td>
+                                <td class="materia">Lenguajes</td>
+                                <td class="materia">Intro. a la robótica</td>
+                                <td class="materia">Proyectos prácticos</td>
+                                <td class="materia">Mecatrónica</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div id="myButton2">
+                        <input class="boton2" type="submit" value="Desea cancelar una clase?">
+                    </div>
+            </article>
+            <article>
+                <div>
+                    <h2>
+                        <span id="materias_ra" class="titulo2">Materias</span>
+                    </h2>
+                    <h3>
+                        <span id="materia_intro_robotica" class="subtitulo1">Introducción a la robótica:</span>
+                    </h3>
+                    <p>
+                        Esta materia ofrece una visión general de los conceptos básicos de la robótica, incluyendo
+                        tipos
+                        de
+                        robots, componentes esenciales y principios de programación robótica.
+                    </p>
+                    <p>
+                        <b>Profesor:</b> Rodrigo Cianciulli - Experto en robótica
+                        educativa.
+                    </p>
+                    <h3>
+                        <span id="materia_program_robots" class="subtitulo1">Programación de robots:</span>
+                    </h3>
+                    <p>
+                        Los estudiantes aprenden a programar robots para que realicen tareas específicas
+                        utilizando lenguajes de programación adaptados a la robótica.
+                    </p>
+                    <p>
+                        <b>Profesora:</b> María Rodríguez - Especialista en programación de robots.
+                    </p>
+                    <h3>
+                        <span id="materia_electronica_basica" class="subtitulo1">Electrónica básica:</span>
+                    </h3>
+                    <p>
+                        Proporcionar conocimientos sobre componentes electrónicos, circuitos y cómo funcionan, lo
+                        que es
+                        esencial para construir y comprender robots.
+                    </p>
+                    <p>
+                        <b>Profesor:</b> Javier Gómez - Experto en electrónica y circuitos.
+                    </p>
+                    <h3>
+                        <span id="materia_proyectos_practicos" class="subtitulo1">Proyectos prácticos:</span>
+                    </h3>
+                    <p>
+                        Los estudiantes aplican sus conocimientos de robótica y electrónica para diseñar, construir
+                        y
+                        programar proyectos robóticos reales, fomentando la creatividad y la resolución de
+                        problemas.
+                    </p>
+                    <p>
+                        <b>Profesor:</b> Rodrigo Cianciulli - Experto en robótica
+                        educativa.
+                    </p>
+                    <h3>
+                        <span id="materia_etica_robotica" class="subtitulo1">Ética de la robótica: </span>
+                    </h3>
+                    <p>
+                        Explora las implicaciones éticas y sociales de la robótica, incluyendo temas como la
+                        privacidad,
+                        la
+                        seguridad y el impacto en la sociedad.
+                    </p>
+                    <p>
+                        <b>Profesora:</b> Laura Morales - Experta en ética de la tecnología.
+                    </p>
+                    <h3>
+                        <span id="materia_lenguajes" class="subtitulo1">Lenguajes: </span>
+                    </h3>
+                    <p>
+                        Se enfoca en la enseñanza de lenguajes de programación específicos para la robótica, como
+                        Python
+                        o
+                        C++, que son fundamentales para programar robots de manera efectiva.
+                    </p>
+                    <p>
+                        <b>Profesor:</b> Carlos Sánchez - Programador
+                    </p>
+                    <h3>
+                        <span id="materia_mecatronica" class="subtitulo1">Mecatrónica:</span>
+                    </h3>
+                    <p>
+                        Esta materia combina la mecánica y la electrónica para diseñar y construir sistemas
+                        robóticos
+                        completos, incluyendo la integración de sensores y actuadores.
+                    </p>
+                    <p>
+                        <b>Profesor:</b> Alejandro Martínez - Ingeniero mecatrónico con experiencia en diseño y
+                        construcción
+                        de robots.
+                    </p>
+                    <h3>
+                        <span id="materia_ia_robotica" class="subtitulo1">IA aplicada a la robótica:</span>
+                    </h3>
+                    <p>
+                        Los estudiantes exploran cómo la inteligencia artificial se aplica a los robots para
+                        permitirles
+                        tomar decisiones, aprender y adaptarse a su entorno.
+                    </p>
+                    <p>
+                        <b>Profesora:</b> Isabel Torres - Experta en inteligencia artificial aplicada a la robótica.
+                    <h3>
+                        <span id="materia_vision_por_computadora" class="subtitulo1">Visión por computadora:</span>
+                    </h3>
+                    <p>
+                        La visión por computadora es una rama de la inteligencia artificial que se enfoca en
+                        permitir a
+                        las
+                        máquinas "ver" y comprender el mundo a través del procesamiento de imágenes y videos.
+                    </p>
+                    <p>
+                        <b>Profesor:</b> Andrés Fernández - Especialista en procesamiento de imágenes y visión por
+                        computadora.
+                    </p>
+                </div>
+            </article>
+            <article>
+                <div class="charlasRoboticas">
+                    <h2>
+                        <span id="charlas_robotica" class="titulo2">Charlas Roboticas</span>
+                    </h2>
+                    <p>
+                        <b>Las nuevas "Charlas Roboticas" de verano ya estan disponibles, completa el formulario
+                            para no
+                            perder
+                            tu lugar!!</b>
+                    </p>
+                    <form id="charlaForm">
+                        <div id="nombre">
+                            <label for="nombre"> Nombre:</label>
+                            <br>
+                            <input id="nombre_input" name="nombre" type="text">
+                            <br>
+                        </div>
+                        <div id="apellido">
+                            <label for="apellido"> Apellido:</label>
+                            <br>
+                            <input id="apellido_input" name="apellido" type="text">
+                            <br>
+                        </div>
+                        <div id="mail">
+                            <label for="correo"> Correo:</label>
+                            <br>
+                            <input id="correo_input" name="correo" type="text">
+                            <br>
+                        </div>
+                        <div>
+                            <label for="charla_input">Que charla te interesa:</label>
+                            <br>
+                            <input id="charla_input" list="charla_verano" name="charla_input">
+                            <datalist id="charla_verano">
+                                <option value="El Futuro de la Robótica: Innovaciones y Desafíos"></option>
+                                <option value="Robótica en la Vida Cotidiana: Aplicaciones y Beneficios"></option>
+                                <option value="Robots Autónomos: Navegación e Inteligencia Artificial"></option>
+                                <option value="Robótica y Salud: Avances en la Medicina y la Cirugía"></option>
+                                <option value="La Magia de la Programación de Robots: De Código a Acción"></option>
+                                <option value="Robots Autónomos: Navegación e Inteligencia Artificial"></option>
+                            </datalist>
+                        </div>
+                        <div>
+                            <label for="fechahora_input">Fecha y Hora:</label>
+                            <br>
+                            <input id="fechahora_input" list="charla_fecha_hora" name="fechahora_input">
+                            <datalist id="charla_fecha_hora">
+                                <option value="5 de Enero 2024 a las 18hs"></option>
+                                <option value="10 de Enero 2024 a las 19:30hs"></option>
+                                <option value="16 de Enero 2024 a las 17hs"></option>
+                                <option value="22 de Enero 2024 a las 20hs"></option>
+                                <option value="26 de Enero 2024 a las 19:30hs"></option>
+                                <option value="31 de Enero 2024 a las 18"></option>
+                            </datalist>
+                        </div>
+                        <div id="mensaje">
+                            <label for="mensaje">Observaciones:</label>
+                            <br>
+                            <textarea id="mensaje_textarea" name="mensaje" rows="7" cols="40"></textarea>
+                        </div>
+                        <div>
+                            <input id="myButton3" class="boton3" value="Reservar Cupo" type="submit">
+                        </div>
+                    </form>
+                </div>
+            </article>
+        </main>
+        <footer>
+            <div>
+                <p id="paso_final">&copy;2024 Matías Barrientos</p>
+                <a href="mailto:matias.barrientos2805@gmail.com">Correo</a>
+                <a href="https://www.instagram.com/tutebarrientos/" target="_blank">Instagram</a>
+                <a href="https://wa.me/+5491139288152" target="_blank">WhatsApp</a>
+            </div>
+        </footer>
+</body>
+
+<script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function () {
+        let button = document.getElementById("myButton");
+        let isBlack = true;
+
+        button.addEventListener("click", function () {
+            if (isBlack === false) {
+                document.body.style.background = "#818FB4";
+                document.body.style.color = "black";
+                button.innerHTML = "Cambiar a Fondo Claro"
+                isBlack = true
+            } else {
+                document.body.style.background = "#EBE3D5";
+                document.body.style.color = "black";
+                button.innerHTML = "Cambiar a Fondo Oscuro"
+                isBlack = false
+            }
+        });
+    });
+
+    var urlParams = new URLSearchParams(window.location.search)
+    var username = urlParams.get('usuario')
+
+    document.addEventListener('DOMContentLoaded', function () {
+        if (username) {
+            document.getElementById('welcome').textContent = 'Bienvenido/a, ' + username + '!'
+        } else {
+            document.getElementById('welcome').textContent = 'Usuario no especificado!'
+        }
+    })
+
+    document.getElementById("charlaForm").addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        var nombre_input = document.getElementById('nombre_input').value;
+        console.log(nombre_input)
+        var apellido_input = document.getElementById('apellido_input').value;
+        console.log(apellido_input)
+        var correo_input = document.getElementById('correo_input').value;
+        console.log(correo_input)
+        var charla_input = document.getElementById('charla_input').value;
+        console.log(charla_input)
+        var fechahora_input = document.getElementById('fechahora_input').value;
+        console.log(fechahora_input)
+        var mensaje_textarea = document.getElementById('mensaje_textarea').value;
+        console.log(mensaje_textarea)
+
+        if (nombre_input != "" && apellido_input != "" && correo_input != "" && charla_input != "" && fechahora_input != "" && mensaje_textarea != "") {
+            alert('Asistencia reservada correctamente')
+            document.getElementById("charlaForm").reset();
+        } else {
+            alert('Verifique los datos del formulario')
+        }
+
+    });
+</script>
+
+</html>
